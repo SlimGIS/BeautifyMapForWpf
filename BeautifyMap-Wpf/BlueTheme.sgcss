@@ -1,0 +1,130 @@
+﻿#cover {
+	fill-color: #405CB1;
+}
+
+#countries {
+    fill-color: #405CB1;
+    stroke-color: #ffffff;
+    stroke-thickness: 1px;
+}
+
+#texas_ctycu {
+    fill-color: #405CB1;
+}
+
+#evergreen {
+    fill-color: #405CB1;
+}
+
+#urban_dtl {
+    fill-color: #405CB1;
+}
+
+#urbanarea {
+    fill-color: #405CB1;
+}
+
+#innerwater {
+    fill-color: #405CB1;
+}
+
+#texas_water {
+    fill-color: #405CB1;
+}
+
+#fedlanddod {
+    fill-color: #405CB1;
+}
+
+#highway--general-outer {
+    stroke-color: #ffffff;
+    stroke-thickness: 6px;
+	lower-level: 12;
+}
+
+#highway--general {
+    stroke-color: #405CB1;
+    stroke-thickness: 5px;
+	lower-level: 12;
+}
+
+#highway--outer {
+    stroke-color: #ffffff;
+    stroke-thickness: 8px;
+	upper-level: 12;
+}
+
+#highway {
+    stroke-color: #405CB1;
+    stroke-thickness: 6px;
+	upper-level: 12;
+}
+
+#permanentriver {
+    stroke-color: #ffffff;
+    stroke-thickness: 1px;
+}
+
+#texas_knownstreets {
+    stroke-color: #ffffff;
+    stroke-thickness: 1px;
+    upper-level: 14;
+}
+
+#road--outer {
+    stroke-color: #ffffff;
+    stroke-thickness: 4px;
+}
+
+#road {
+    stroke-color: #405CB1;
+    stroke-thickness: 2px;
+}
+
+#rail {
+    stroke-color: #F2CF60;
+    stroke-thickness: 1px;
+}
+
+#rail100k {
+    stroke-color: #fd5400;
+    stroke-thickness: 1px;
+}
+
+#ushigh1--outer {
+    stroke-color: #ffffff;
+    stroke-thickness: 6px;
+}
+
+#highway1 {
+    stroke-color: #405CB1;
+    stroke-thickness: 4px;
+}
+
+#texas_knownaddress #settlement #noncapital #airport #ggolf #ghospitl #gchurch #cities_01 #cities_02 {
+    symbol: circle;
+    symbol-size: 4px;
+    fill-color: #ffffff;
+    stroke-color: #000000;
+    stroke-thickness: 1px;
+	margin: 100px;
+}
+
+#cities_01 {
+	text-column: AREANAME;
+	font-size: 20px;
+	font-color: #ffffff;
+	font-weight: bold;
+	text-stroke: #415CB1;
+	text-stroke-thickness: 6px;
+}
+
+#airport{
+	text-column: NAM;
+	font-weight: bold;
+	font-color: #415CB1;
+	font-size: 10px;
+	text-stroke: #ffffff;
+	text-stroke-thickness: 2px;
+}
+

@@ -1,0 +1,106 @@
+﻿#cover {
+	fill-color: #000000;
+}
+
+#countries {
+    fill-color: #111111;
+    stroke-color: #0c0c0c;
+    stroke-thickness: 1px;
+}
+
+#texas_ctycu {
+    fill-color: #111111;
+    stroke-color: #1f1f1f;
+    stroke-thickness: 1px;
+}
+
+#evergreen {
+    fill-color: #111111;
+}
+
+#urban_dtl {
+    fill-color: #1b1b1b;
+}
+
+#urbanarea {
+    fill-color: #111111;
+}
+
+#innerwater {
+    fill-color: #2c2c2c;
+}
+
+#texas_water {
+    fill-color: #2c2c2c;
+}
+
+#fedlanddod {
+    fill-color: #111111;
+}
+
+#highway {
+    stroke-color: #333333;
+    stroke-thickness: 3px;
+	upper-level: 12;
+}
+
+#highway--general {
+    stroke-color: #333333;
+    stroke-thickness: 1px;
+	lower-level: 12;
+}
+
+#permanentriver {
+    stroke-color: #333333;
+    stroke-thickness: 1px;
+}
+
+#road {
+    stroke-color: #333333;
+    stroke-thickness: 1px;
+}
+
+#texas_knownstreets {
+    stroke-color: #333333;
+    stroke-thickness: 1px;
+    upper-level: 14;
+}
+
+#rail {
+    stroke-color: #fd5400;
+    stroke-thickness: 1px;
+}
+
+#rail100k {
+    stroke-color: #00caff;
+    stroke-thickness: 3px;
+}
+
+#highway1 {
+    stroke-color: #fd5400;
+    stroke-thickness: 2px;
+}
+
+#texas_knownaddress #settlement #noncapital #airport #ggolf #ghospitl #gchurch #cities_01 #cities_02 {
+    symbol: circle;
+    symbol-size: 4px;
+    fill-color: #ffffff;
+    stroke-color: #000000;
+    stroke-thickness: 1px;
+	font-color: #111111;
+	font-weight: bold;
+	font-size: 15px;
+	text-stroke: #e0e0e0;
+	text-stroke-thickness: 2px;
+	margin: 100px;
+}
+
+#cities_01 {
+	text-column: AREANAME;
+}
+
+#airport{
+	text-column: NAM;
+	font-size: 10px;
+}
+
