@@ -6,6 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:sg="clr-namespace:SlimGis.MapKit.Wpf;assembly=SGMapKit.Wpf"
+    xmlns:sgst="clr-namespace:SlimGis.ShareKit.Wpf;assembly=SGShareKit.Wpf"
     xmlns:local="clr-namespace:BeautifyMap_Wpf"
     Title="MainWindow"
     Width="1024"
@@ -64,6 +65,6 @@
                 SyntaxHighlighting="CSS" />
             </Grid>
         </Grid>
-        <local:Footer Grid.Row="1"/>
+        <sgst:SampleFooter Grid.Row="1"/>
     </Grid>
 </Window>

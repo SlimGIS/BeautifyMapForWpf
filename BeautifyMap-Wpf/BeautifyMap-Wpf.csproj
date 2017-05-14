@@ -44,6 +44,9 @@
     <Reference Include="SGMapKit.Wpf, Version=3.0.1.0, Culture=neutral, PublicKeyToken=77c845dea9a04899, processorArchitecture=MSIL">
       <HintPath>..\packages\SGMapKit.Wpf.3.0.1\lib\net40\SGMapKit.Wpf.dll</HintPath>
     </Reference>
+    <Reference Include="SGShareKit.Wpf, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SGShareKit.Wpf.1.0.2\lib\net40\SGShareKit.Wpf.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -64,10 +67,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="Footer.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -75,9 +74,6 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Footer.xaml.cs">
-      <DependentUpon>Footer.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -562,14 +558,6 @@
     <None Include="DarkTheme.sgcss">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\learnmore.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\question.png" />
-    <Resource Include="Images\contact.png" />
-    <Resource Include="Images\home.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
