@@ -1,6 +1,8 @@
 # Beautify map - MapKit for SlimGIS MapKit WPF
 In the [previous thread](https://github.com/SlimGIS/QuickstartSampleForWPF), we guided you to walk through a simple quick start sample of SlimGIS MapKit for WPF. In this thread, we will show you how to build a beautify map. Here is a preview of our samples.
 
+> This project already includes the runtime license. If your trial license is expired, it still can run the project by "ctrl + F5". Or [try executable](https://github.com/SlimGIS/BeautifyMapForWpf/releases). 
+
 ![wpf-preview-view](https://github.com/SlimGIS/BeautifyMapForWpf/blob/master/Screenshots/Screenshot-Preview.png)
 
 In the basic sample, we will show you 3 kinds of theme.
