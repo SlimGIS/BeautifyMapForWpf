@@ -1,7 +1,7 @@
-Keywords: map builder, build a map, beautiful map, wpf map, carto css map
+Keywords: map builder, build a map, beautiful map, wpf map, css map
 
 # Build a beautify map with WPF
-In the [previous thread](https://slimgis.com/documents/getting-started-wpf), we guided you to walk through a simple quick start sample of SlimGIS Map Kit WPF. In this thread, we will show you how to build a beautify map. Here is a preview of our samples.
+In the [previous thread](https://slimgis.com/documents/getting-started-wpf), we guided you to walk through a simple quick start sample of SlimGIS Map Kit WPF. In this thread, we will show you how to build a beautify map with WPF and CSS. Here is a preview of our samples.
 
 > This project already includes the runtime license. If your trial license is expired, it still can run the project by "ctrl + F5". Or [try executable](https://github.com/SlimGIS/BeautifyMapForWpf/releases). 
 
